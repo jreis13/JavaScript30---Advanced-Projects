@@ -30,6 +30,28 @@ h1 {
   border-radius: 1rem;
 }
 
+.btn-cont {
+  padding-top: 5em;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.startBtn {
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background: green;
+}
+
 .game {
   width: 600px;
   height: 400px;
